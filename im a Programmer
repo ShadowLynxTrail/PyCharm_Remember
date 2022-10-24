@@ -1,0 +1,9 @@
+#Напоминание програмиста
+
+phrase = ("Я - програмист на Pyhton !")
+print(phrase)
+count = 0
+counter = int(input("Сколько раз повторить эту фразу?"))
+while count < counter:
+  print(phrase)
+  count += 1
